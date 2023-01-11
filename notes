@@ -1,0 +1,23 @@
+git config --local user.name "Rowan Tamer"
+git config --global user.email "rowantamer5@gmail.com"
+
+git config --list //علشان اتاكد انا شغالة عند انهي ريبو
+git status // بعرف موقف الفايلز بتاعتي من commit
+git add converhours.html // in stage area locally
+git rm --cached file name // unstage
+git add . // make all files in stage
+git commit -m "adding javascript task" //message
+git log //auther of commit
+git commit --help //documntation for help
+
+//remote files
+git push -u origin main
+
+//see what happend in files
+git log --oneline 
+   
+
+//------important---
+git add converhours.html
+git commit -m "adding javascript task" //message
+git push 
